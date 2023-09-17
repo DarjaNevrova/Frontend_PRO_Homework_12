@@ -1,0 +1,60 @@
+.cards {
+    border: 2px solid black;
+    margin-left: 300px;
+    background-color: #34495E;
+    width: 100%;
+    max-width: 1244px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 100px;
+    border-radius: 20px;
+    color: white;
+    align-items: flex-start;
+    font-size: 16px;
+}
+
+.DayOfTheWeek {
+    margin-top: 35px;
+    margin-left: 45px;
+}
+
+.button {
+    background-color: #27AE60;
+    width: 342px;
+    height: 48px;
+    margin-left: 40px;
+    margin-top: 23px;
+    color: white;
+}
+
+.paragraphs {
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.paragraphsTwoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.paragraphsTwo {
+    border: 2px solid black;
+    width: 503px;
+    height: 50px;
+    background-color: #D9D9D9;
+    border-radius: 10px;
+    padding: 0 10px;
+    color: black;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    display: flex;
+    margin-left: 43px;
+}
